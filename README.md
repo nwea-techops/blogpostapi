@@ -33,7 +33,7 @@ You will need to implement 2 API endpoints for this assignment.
 2. An endpoint for GETing all blog posts
   * Endpoint *must* be `/posts`
   * Method *must* be `GET`
-  * There should be no content send (this is a GET request)
+  * There should be no content sent (this is a GET request)
   * Content received *must* be the `post_id`, `title`, and `body` of the post
 
 All data exchanged with the API *must* be in JSON format.
