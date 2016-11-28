@@ -11,8 +11,9 @@ turned in to determine if you have the qualities that we're looking for at NWEA.
 
 You are a DevOps engineer.  Your boss has requested that you build a blog post API.
 You have been given a database schema by the DBA team that you will need to use to insert information into a SQLite database.
-Fork the following repository on Github and add the code necessary to provide an API that will write single posts to the
-database and retrieve a list of all posts from the database.
+Create a repository on Github (do *not* fork this one) and add the code necessary to provide an API that will write single posts to the
+database and retrieve a list of all posts from the database.  You should include a copy of the database in your repository.
+It ought to work "out of the box".
 
 # Requirements
 
@@ -34,7 +35,7 @@ You will need to implement 2 API endpoints for this assignment.
   * Endpoint *must* be `/posts`
   * Method *must* be `GET`
   * There should be no content sent (this is a GET request)
-  * Content received *must* be the `post_id`, `title`, and `body` of the post
+  * Content received *must* be the `post_id`, `title`, and `body` of all posts in an array
 
 All data exchanged with the API *must* be in JSON format.
 
