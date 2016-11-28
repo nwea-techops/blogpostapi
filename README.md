@@ -48,5 +48,5 @@ When the API is used to POST a blog post it should be written to the database.  
 
 Have fun!  If you don't like doing this assignment you probably won't like working here.  We like to code and we do a lot of automation.
 
-We're looking forward to seeing you API in action!
+We're looking forward to seeing your API in action!
 
